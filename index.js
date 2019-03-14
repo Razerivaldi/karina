@@ -4,13 +4,13 @@ const sat = require("./sat.js");
 const help = require("./help.js");
 const Discord = require("discord.js"); //this is for the whole discord stuff
 const Youtube = require("simple-youtube-api"); //this is to use the youtube search algorithm
-const youtube = new Youtube("AIzaSyB-AeWBUDDGQ3F_GhZnuZJWU_zNUgZJlS4");
+const youtube = new Youtube("abc");
 const ytdl = require("ytdl-core"); //this is to read the video from the url
 //also there needs to be ffmpeg and opusscript 
 const Gfycat = require("gfycat-sdk"); //this is to grab gifs
 var gfycat = new Gfycat({
-	clientId: "2_fHY60b",
-	clientSecret: "atITNel-Xf7Nr2L_8ptI48Pj8ZOZOGgu1w6HIAcidEVx-vnY-lFynefGBJUJHGY2"
+	clientId: "abc",
+	clientSecret: "abc"
 });
 
 var playingnow = [];
